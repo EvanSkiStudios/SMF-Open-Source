@@ -74,9 +74,9 @@ function smf_model_load_from_buffer(loadBuff, path = "", targetModel = new smf_m
 	}
 	buffer_seek(loadBuff, buffer_seek_start, 0);
 	var headerText = buffer_read(loadBuff, buffer_string);
-	if (headerText != "SMF_v11_by_Snidr_and_Bart")
+	if (headerText != "SMF_v12_by_Snidr_and_Bart")
 	{
-		var model = smf_model_load_v10_from_buffer(loadBuff, path, targetModel);
+		var model = smf_model_load_v11_from_buffer(loadBuff, path, targetModel);
 		if (is_struct(model))
 		{
 			return model;
@@ -321,7 +321,7 @@ function smf_model_save(model, path, incTex)
 	////////////////////////////////////////////////////////////////////
 	//Create buffer and write header
 	var saveBuff = buffer_create(100, buffer_grow, 1);
-	buffer_write(saveBuff, buffer_string, "SMF_v11_by_Snidr_and_Bart");
+	buffer_write(saveBuff, buffer_string, "SMF_v12_by_Snidr_and_Bart");
 	var texHeader = buffer_tell(saveBuff);	buffer_write(saveBuff, buffer_u32, 0); //Buffer position of the textures
 	var modHeader = buffer_tell(saveBuff);	buffer_write(saveBuff, buffer_u32, 0); //Buffer position of the models
 	var rigHeader = buffer_tell(saveBuff);	buffer_write(saveBuff, buffer_u32, 0); //Buffer position of the rig
