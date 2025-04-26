@@ -516,7 +516,7 @@ function smf_model_load_v10_from_buffer(loadBuff, path = "", targetModel = new s
 						//Make sure the first frame is in the positive side of the hyper-hemisphere
 						if (keyframe[i][3] < 0)
 						{
-							//smf_dq_invert(keyframe[i]);
+							//smf_dq_negate(keyframe[i]);
 						}
 					}
 					else
@@ -524,7 +524,7 @@ function smf_model_load_v10_from_buffer(loadBuff, path = "", targetModel = new s
 						//Make sure the rotation from the previous frame is in the same side of the hyper-hemisphere
 						if (smf_quat_dot(prevFrame[i], keyframe[i]) < 0)
 						{
-							smf_dq_invert(keyframe[i]);
+							smf_dq_negate(keyframe[i]);
 						}
 					}
 				}

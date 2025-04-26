@@ -165,7 +165,7 @@ function smf_anim(_name) constructor
 					//Find interpolated local change in orientation
 					var A = keyframeA[i];
 					var B = keyframeB[i];
-					//if (smf_quat_dot(A, B) < 0){smf_dq_invert(A);}
+					//if (smf_quat_dot(A, B) < 0){smf_dq_negate(A);}
 					smf_dq_lerp(A, B, keyframeArray[2], tempDQ);
 					smf_dq_normalize(tempDQ);
 					
@@ -195,8 +195,8 @@ function smf_anim(_name) constructor
 					var A = keyframeA[i];
 					var B = keyframeB[i];
 					var C = keyframeC[i];
-					//if (smf_quat_dot(A, B) < 0){smf_dq_invert(A);}
-					//if (smf_quat_dot(B, C) < 0){smf_dq_invert(C);}
+					//if (smf_quat_dot(A, B) < 0){smf_dq_negate(A);}
+					//if (smf_quat_dot(B, C) < 0){smf_dq_negate(C);}
 			
 					//Find interpolated local change in orientation
 					smf_dq_quadratic_interpolate(A, B, C, keyframeArray[3], tempDQ);
