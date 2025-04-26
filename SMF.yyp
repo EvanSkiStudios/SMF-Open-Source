@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"SMF",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -52,6 +52,7 @@
     {"$GMFolder":"","%Name":"Supplementary scripts","folderPath":"folders/SMF/SMF/Supplementary scripts/Model buffers/Supplementary scripts.yy","name":"Supplementary scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Textures","folderPath":"folders/SMF/SMF/Supplementary scripts/Model buffers/Textures.yy","name":"Textures","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"AxisRotation.obj","CopyToMask":-1,"filePath":"datafiles/AnimEditor","name":"AxisRotation.obj","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Cube.obj","CopyToMask":-1,"filePath":"datafiles/AnimEditor","name":"Cube.obj","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
