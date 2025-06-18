@@ -33,7 +33,7 @@ function mbuff_load_obj_from_buffer(buffer, path = "", load_textures = true) {
 	for (var i = 0; i < num; ++i)
 	{
 		//Remove the newline from the end of the string
-		var this_line = string_delete(lines[i], string_length(lines[i]), 1);
+		var this_line = string_delete(lines[i], string_length(lines[i]), 0);
 		
 		//Continue if the string is empty
 		if (this_line == "") continue;
