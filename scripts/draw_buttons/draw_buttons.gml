@@ -1,3 +1,4 @@
+// feather ignore all
 function draw_buttons() {
 	draw_set_font(font_0);
 	draw_set_halign(fa_left);
@@ -218,7 +219,7 @@ function draw_buttons() {
 		if sprite_index = sSlider
 		{
 			draw_sprite(sSliderPoint, 0, x + 5 + sliderValue * (127 - 10), y + 8);
-			draw_set_halign(fa_middle)
+			draw_set_halign(fa_center)
 			draw_set_color(c_black)
 			draw_text(x + 63, y + 1, actualValue);
 			draw_text(x + 65, y + 1, actualValue);

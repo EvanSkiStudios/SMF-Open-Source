@@ -1,3 +1,4 @@
+// feather ignore all
 function animeditor_add_buttons() {
 	yy += .5;
 	add_button(0, 16 * (yy++), sCategory, "Keyframes", "", "");

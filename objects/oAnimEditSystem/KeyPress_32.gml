@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description Start animation
 if global.editMode == eTab.Animation
 {

@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description modeleditor_update_wireframe()
 function modeleditor_update_wireframe() {
 	/*

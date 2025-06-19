@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description mod_create_wall()
 function mod_create_wall() {
 	var vBuff = vertex_create_buffer();

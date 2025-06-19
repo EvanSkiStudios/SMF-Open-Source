@@ -1,3 +1,5 @@
+// feather ignore all
+
 function rigeditor_perform_actions() {
 	var tx, ty, nodeNum, newedtSelNode, i, newPos, bonePos;
 	if mouseViewInd < 1{exit;}

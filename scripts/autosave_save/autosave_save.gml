@@ -1,3 +1,4 @@
+// feather ignore all
 /// @description autosave_save(type)
 /// @param type
 function autosave_save(argument0) {

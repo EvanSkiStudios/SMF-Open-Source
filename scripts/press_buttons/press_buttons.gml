@@ -1,3 +1,5 @@
+// feather ignore all
+
 function press_buttons() {
 	var mouseWheel = mouse_wheel_down() - mouse_wheel_up();
 	if mouseWheel != 0

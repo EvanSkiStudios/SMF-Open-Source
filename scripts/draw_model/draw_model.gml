@@ -1,3 +1,4 @@
+// feather ignore all
 /// @description draw_model(modelIndex, texture, wireframe, animate)
 /// @param modelIndex
 /// @param texture

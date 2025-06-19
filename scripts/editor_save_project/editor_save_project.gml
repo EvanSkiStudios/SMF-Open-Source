@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description editor_save_project(fname)
 /// @param fname
 function editor_save_project(argument0) {

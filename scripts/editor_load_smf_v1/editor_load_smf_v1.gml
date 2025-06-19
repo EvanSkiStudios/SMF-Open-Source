@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description editor_load_smf_v1(fname)
 /// @param fname
 function editor_load_smf_v1(argument0) {

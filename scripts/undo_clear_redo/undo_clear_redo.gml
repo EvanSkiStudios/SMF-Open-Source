@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description undo_clear_redo()
 function undo_clear_redo() {
 	if !editorUndoEnabled{exit;}

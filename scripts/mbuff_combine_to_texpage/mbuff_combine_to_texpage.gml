@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description mbuff_combine_to_texpage(mBuff, texPack, padding, maxSize, forcePowerOfTwo)
 /// @param mBuff
 /// @param texPack

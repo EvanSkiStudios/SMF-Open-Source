@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description modeleditor_press_buttons()
 function modeleditor_press_buttons() {
 	/*

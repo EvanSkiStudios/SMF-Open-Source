@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description rigeditor_insert_node(nodeInd)
 /// @param nodeInd
 function rigeditor_insert_node(argument0) {

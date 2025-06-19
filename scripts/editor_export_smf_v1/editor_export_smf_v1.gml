@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description editor_export_smf_v1(savePath)
 function editor_export_smf_v1(argument0) {
 	/*

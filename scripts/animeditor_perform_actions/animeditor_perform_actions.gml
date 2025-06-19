@@ -1,3 +1,4 @@
+// feather ignore all
 function animeditor_perform_actions() {
 	var tx, ty;
 	tx = camTransform[mouseViewInd, 0];

@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description
 gpu_set_zwriteenable(false);
 gpu_set_ztestenable(false);
@@ -16,7 +18,7 @@ draw_set_color(c_white);
 draw_roundrect(screenWidth / 2 - sHalfWidth - 16, screenHeight / 2 - sHalfHeight - 16, screenWidth / 2 + sHalfWidth + 16, screenHeight / 2 + sHalfHeight + 86, true)
 draw_sprite_ext(sSplashScreen, 0, screenWidth / 2, screenHeight / 2, 1, 1, 0, c_white, alpha);
 
-draw_set_halign(fa_middle);
+draw_set_halign(fa_center);
 draw_set_valign(fa_top);
 xx = floor(screenWidth / 2);
 yy = floor((screenHeight / 2 + sHalfHeight) / 16) + 1;

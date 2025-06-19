@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description rigeditor_delete_node(nodeInd)
 /// @param nodeInd
 function rigeditor_delete_node(argument0) {

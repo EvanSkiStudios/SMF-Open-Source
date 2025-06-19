@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description
 if view_current == 0{
 	draw_clear(c_dkgray);

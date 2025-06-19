@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description skineditor_paint_vertices()
 function skineditor_paint_vertices() {
 	var model = edtSMFArray[edtSMFSel];

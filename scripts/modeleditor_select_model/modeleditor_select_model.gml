@@ -1,3 +1,5 @@
+// feather ignore all
+
 function modeleditor_select_model() {
 	//Select vbuffer from vbuff surface
 	//Model settings

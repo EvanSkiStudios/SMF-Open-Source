@@ -1,3 +1,5 @@
+// feather ignore all
+
 function rigeditor_draw_skeleton() {
 	if edtBoneModel < 0{exit;}
 	var model = -1;
@@ -22,7 +24,7 @@ function rigeditor_draw_skeleton() {
 	}
 	
 
-	gpu_set_cullmode(false);
+	gpu_set_cullmode(cull_noculling);
 	var animate = (is_array(model.Sample) && global.editMode == eTab.Animation);
 	var nodeList = rig.nodeList;
 	var bindMap = rig.bindMap;
@@ -65,7 +67,7 @@ function rigeditor_draw_skeleton() {
 	vertex_submit(edtBoneWire, pr_linelist, -1);
 
 	draw_set_font(fontMessage);
-	draw_set_halign(fa_middle);
+	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
 
 	var node, nodeM;

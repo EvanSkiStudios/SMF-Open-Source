@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description
 var timeStep = delta_time * 60 / 1000000;
 

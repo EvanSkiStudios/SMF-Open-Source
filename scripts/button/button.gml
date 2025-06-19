@@ -147,7 +147,7 @@ function category(text, width = global.buttonWidth, height = global.buttonHeight
 	
 	static draw = function()
 	{
-		draw_set_halign(fa_middle);
+		draw_set_halign(fa_center);
 		draw_set_valign(fa_top);
 		draw_text(global.modulePos.x + global.buttonWidth / 2, global.modulePos.y + 3, text);
 		draw_set_halign(fa_left);

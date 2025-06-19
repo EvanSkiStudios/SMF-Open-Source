@@ -1,9 +1,10 @@
+// feather ignore all
 function animeditor_draw_timeline() {
 	var tmlWidth = edtTmlPos[2] - edtTmlPos[0];
 	var tmlHeight = edtTmlPos[3] - edtTmlPos[1];
 	draw_set_color(make_color_rgb(200, 200, 200));
 	draw_rectangle(edtTmlPos[0], edtTmlPos[1], edtTmlPos[2], edtTmlPos[3], false);
-	draw_set_halign(fa_middle);
+	draw_set_halign(fa_center);
 	draw_set_valign(fa_bottom);
 	
 	//Draw timeline intervals

@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description mbuff_autoskin(mBuff, rigIndex, power, normalWeighting)
 /// @param mBuff
 /// @param rigIndex

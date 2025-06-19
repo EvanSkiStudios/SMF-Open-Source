@@ -1,3 +1,5 @@
+// feather ignore all
+
 //Check if the window has been resized, and if so, adapt the application surface and GUI
 window_resize();
 

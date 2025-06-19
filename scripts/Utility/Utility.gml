@@ -1,3 +1,4 @@
+// feather ignore all
 function smf_smoothstep(_min, _max, val) 
 {
 	// Scale, bias and saturate x to 0..1 range

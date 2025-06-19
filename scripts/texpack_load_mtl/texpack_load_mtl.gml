@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description texpack_load_mtl(fname, mtlNames)
 /// @param fname
 /// @param mtlNames

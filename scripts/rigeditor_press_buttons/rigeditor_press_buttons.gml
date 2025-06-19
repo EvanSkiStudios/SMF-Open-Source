@@ -1,3 +1,5 @@
+// feather ignore all
+
 function rigeditor_press_buttons() {
 	//Apply any transformations
 

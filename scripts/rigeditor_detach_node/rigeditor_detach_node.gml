@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description rigeditor_detach_node(nodeInd, detach)
 /// @param nodeInd
 /// @param detach

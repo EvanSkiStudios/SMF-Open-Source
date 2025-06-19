@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description mbuff_create_smooth_tangents(mBuff)
 /// @param mBuff
 function mbuff_create_smooth_tangents(argument0) {

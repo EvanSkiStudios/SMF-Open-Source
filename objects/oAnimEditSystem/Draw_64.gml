@@ -1,3 +1,5 @@
+// feather ignore all
+
 var windowW = window_get_width();
 var windowH = window_get_height();
 
@@ -33,7 +35,7 @@ draw_sprite(sDimensions, 2, borderX + editWidth + 8, borderY + editHeight * 2 - 
 //Draw blue messages at the middle of the screen
 draw_set_color(c_white);
 draw_set_font(fontMessage);
-draw_set_halign(fa_middle);
+draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 with oAnimEditMessage
 {

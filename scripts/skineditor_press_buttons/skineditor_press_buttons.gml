@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description skineditor_press_buttons()
 function skineditor_press_buttons() {
 	/*

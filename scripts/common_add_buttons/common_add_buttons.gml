@@ -1,3 +1,4 @@
+// feather ignore all
 function common_add_buttons() {
 	//Add common buttons
 	//Model settings

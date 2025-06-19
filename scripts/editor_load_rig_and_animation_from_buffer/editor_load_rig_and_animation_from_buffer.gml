@@ -1,3 +1,5 @@
+// feather ignore all
+
 function editor_load_rig_and_animation_from_buffer(argument0, argument1) {
 	var loadBuff = argument0;
 	var fname = argument1;

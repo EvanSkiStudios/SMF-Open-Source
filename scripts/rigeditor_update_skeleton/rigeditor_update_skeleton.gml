@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description rig_update_bonemodel()
 function rigeditor_update_skeleton() {
 	//Model settings

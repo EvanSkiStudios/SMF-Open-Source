@@ -1,3 +1,5 @@
+// feather ignore all
+
 /// @description undo_save(text, type)
 /// @param text
 /// @param type

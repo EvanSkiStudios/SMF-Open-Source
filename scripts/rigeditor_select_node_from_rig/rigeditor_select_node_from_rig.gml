@@ -1,3 +1,5 @@
+// feather ignore all
+
 function rigeditor_select_node_from_rig() {
 	var size = 128;
 	var surf = surface_create(size, size);
